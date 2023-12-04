@@ -13,12 +13,20 @@ This project is a simple Node.js and MongoDB-based API for managing product inve
 
 # Instructions for Setup
 * **Clone the repository**
+  
   git clone https://github.com/your-username/ecommerce-api.git
   cd ecommerce-api
+  
 * **Install dependencies:**
+  
   npm install
+  
 * **Set up MongoDB:**
+  
   Ensure that you have MongoDB installed and running.
+  
   Update the MongoDB connection URI in the config.js file.
+  
 * **Start the server:**
+  
   npm start
