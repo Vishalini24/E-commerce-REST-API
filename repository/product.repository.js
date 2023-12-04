@@ -14,7 +14,7 @@ export default class ProductRepository{
 
         // Access the MongoDB `db` object
         const db = mongooseConnection.connection.db;
-                const nextCounter = await this.getNextCounter(db);
+        const nextCounter = await this.getNextCounter(db);
          // Create a new product
          const newProduct = new productModel({
           name,
