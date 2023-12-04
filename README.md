@@ -32,26 +32,26 @@ This project is a simple Node.js and MongoDB-based API for managing product inve
   npm start
 
   # API Endpoints
-**1. Add Products**
-
-**URL:** /products/create
-
-**Method:** POST
-
-**2. List Products**
-
-**URL:** /products
-
-**Method:** GET
-
-**3. Delete Products**
-
-**URL:** /products/:id
-
-**Method:** DELETE
-
-**4. Update Product Quantity**
-
-**URL:** /products/:id/update_quantity/?number=10
-
-**Method:** POST
+    **1. Add Products**
+    
+    **URL:** /products/create
+    
+    **Method:** POST
+    
+    **2. List Products**
+    
+    **URL:** /products
+    
+    **Method:** GET
+    
+    **3. Delete Products**
+    
+    **URL:** /products/:id
+    
+    **Method:** DELETE
+    
+    **4. Update Product Quantity**
+    
+    **URL:** /products/:id/update_quantity/?number=10
+    
+    **Method:** POST
