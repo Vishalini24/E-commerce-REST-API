@@ -16,5 +16,8 @@
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.2"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+  "node": ">=18.18.0 <19.0.0"
+  }
 }
