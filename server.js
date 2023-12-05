@@ -16,7 +16,7 @@ server.use(bodyParser.json());
 server.use("/api/products/",productRouter);
 
 //Specify port
-server.listen(4000, ()=>{
+server.listen(process.env.PORT, ()=>{
     console.log('Server is listening on port 4000');
     connectUsingMongoose();
 })
